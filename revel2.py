@@ -1236,3 +1236,7 @@ for x in list(master):
         mas.append(x)
 
 print mas
+
+#参考
+import string
+print   filter(lambda x: x in string.letters, master)
